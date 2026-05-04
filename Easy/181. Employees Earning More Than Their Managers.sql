@@ -6,7 +6,7 @@ join Employee as m
 on e.managerId = m.id
 where e.salary  > m.salary;
 
--- second solution
+-- second solution ----
 
 select e.name as Employee
 from Employee as e
