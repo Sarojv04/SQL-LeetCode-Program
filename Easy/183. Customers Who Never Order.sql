@@ -12,4 +12,4 @@ select c.name as Customers
 from  Customers as c
 where Id not in (select customerId from Orders);
 
--- finished
+-- query ended here
